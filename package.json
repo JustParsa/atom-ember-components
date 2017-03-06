@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-ember-components:toggle"
   },
-  "repository": "https://github.com/atom/atom-ember-components",
+  "repository": "https://github.com/JustParsa/atom-ember-components",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
