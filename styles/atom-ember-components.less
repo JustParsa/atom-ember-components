@@ -1,8 +1,37 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
 
-.atom-ember-components {
+.atom-ember-components {}
+
+#components-list-container {
+  max-height: 80px;
+  overflow-y: scroll;
+}
+
+.info-text {
+  color: #94BDC7;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+button.btn.comp-btn {
+  background-image: linear-gradient(#0F434F, #012B35);
+  &.recently-opened {
+    color: #4E838F;
+  }
+
+  &.not-recently-opened {
+    color: #6B949E;
+    font-weight: bold;
+  }
+
+  &.selected:focus,
+  &:hover {
+    background-image: linear-gradient(lighten(#0F434F, 3%), lighten(#012B35, 3%));
+    color: white;
+  }
+
+  &:active {
+    background-color: #012B35;
+  }
 }
