@@ -1,5 +1,17 @@
 # atom-ember-components package
 
-A short description of your package.
+A convenient Atom package for Ember developers.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+See all controllers and components that are rendering your current component at the bottom of the currently opened template and go to source upon click.
+
+![Atom-Ember-Components Screenshot](https://github.com/JustParsa/atom-ember-components/blob/master/resources/screenshot.png?raw=true)
+
+# Installation
+
+```bash
+$ apm install atom-ember-components
+```
+
+### License
+
+[MIT](./LICENSE.md)
