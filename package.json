@@ -2,7 +2,7 @@
   "name": "atom-ember-components",
   "main": "./lib/atom-ember-components",
   "version": "0.1.1",
-  "description": "A short description of your package",
+  "description": "A convenient Atom package for Ember developers. See all controllers and components that are rendering your component.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-ember-components:toggle"
