@@ -3,7 +3,10 @@
   "main": "./lib/atom-ember-components",
   "version": "0.3.0",
   "description": "A convenient Atom package for Ember developers. See all controllers and components that are rendering your component. Currently only works with pods structure.",
-  "keywords": [],
+  "keywords": [
+    "ember",
+    "ember pods"
+  ],
   "repository": "https://github.com/JustParsa/atom-ember-components",
   "license": "MIT",
   "engines": {
